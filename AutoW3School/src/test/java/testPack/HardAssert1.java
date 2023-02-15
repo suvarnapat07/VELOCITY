@@ -94,7 +94,7 @@ public class HardAssert1 {
 	public void afterClass() throws InterruptedException
 	{
 		System.out.println("AfterClass");
-		driver.quit();
+		// driver.quit();
 		Thread.sleep(2000);
 	}
 	
