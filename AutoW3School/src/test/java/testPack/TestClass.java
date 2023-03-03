@@ -57,7 +57,7 @@ public class TestClass {
 			System.out.println("FAIL");
 		}
 	}
-	/*@ Test
+	@ Test
 	public void Test2()
 	{
 		w3schoolHome.clickOntutorials();
@@ -65,7 +65,7 @@ public class TestClass {
 		w3schoolHome.clickOnstartLearningJavaNow();
 		w3schoolHome.clickOnNext();
 	}
-	*/
+	
 	@AfterMethod
 	public void afterMethod()
 	{
